@@ -1,0 +1,542 @@
+html {
+  margin: 0px;
+  min-height: 100% !important;
+}
+
+body {
+  background: #fff;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden !important;
+}
+
+
+#mainNav{
+  padding: 0px 0px;
+  /* background-color: lightblue; */
+}
+
+#navLogoImg{
+  width: 12rem;
+  height: 12rem;
+  cursor: pointer;
+}
+
+#navImgContainer{
+  width: 100%;
+}
+
+#navbarNav{
+  width: 100%;
+}
+
+#navbarMenu{
+  /* background-color: red; */
+  float: right;
+}
+
+.navMenuLink{
+  color: #413e66 !important;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.navMenuLink:hover,
+.navMenuLink:active,
+.navMenuLink:focus{
+  color: #0a98c0 !important;
+  outline: none;
+  text-decoration: none;
+}
+
+/* Admin Stylings */
+
+#InputAdminUser{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 7em;
+}
+
+#InputAdminPassword{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+#submitAdminPassword{
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 4em;
+
+}
+
+.createPostLabel{
+  margin-top: 1.3em;
+}
+
+#createPostEnterTitle, #UpdatePostEnterTitle{
+  margin: 15px 0px;
+}
+
+#CreatePostEnterSubtitle{
+  margin: 15px 0px;
+}
+
+#createPostTextBox, #UpdaePostSelectTags{
+  margin: 15px 0px;
+  overflow-y: scroll;
+}
+
+#CreatePostSelectTags, #UpdatePostSelectTags{
+  margin: 15px 0px;
+  height: 180px;
+  width: 520px;
+  overflow-y: auto;
+}
+
+.createPostAltTag{
+  width: 60%;
+}
+
+.createPostCaption{
+  margin: 5px 0px;
+  width: 60%;
+}
+
+#CreatePostUploadFiles{
+  margin: 15px 0px;
+}
+
+.createPostUploadVideo, .createPostUploadLink{
+  margin: 15px 0px;
+  width: 60%;
+}
+
+#managePostTable{
+  margin-top: 30px;
+}
+
+.managePostTR:hover{
+  background-color: #E5E0FF;
+  cursor: pointer;
+}
+
+#CreatePostSelectPostType, #UpdatePostSelectPostType{
+  margin: 15px 0px;
+}
+
+#ViewCurrentText{
+  margin: 35px 0px;
+
+}
+
+#UpdatePostCurrentValues{
+  margin-bottom: 60px;
+}
+
+.PageTitle{
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px 5px;
+  line-height: 1.1;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+
+.PageContainerHeadText{
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ArticlePageMainTitleBG{
+  padding: 20px 20px;
+}
+
+.ArticlePreviewMainTitle{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  border-bottom: #ededed 1px solid;
+  padding: 10px 0px;
+  color: black;
+  text-align: center;
+}
+
+.ArticlePreviewMainTitle:hover{
+  color: #007bff;
+}
+
+.ArticlePreviewMainTitleLink:hover{
+  text-decoration-color: #007bff;
+}
+
+.ArticlePreviewMainPictureBG{
+  height: 450px;
+  width: 100%;
+  text-align: center;
+}
+
+.ArticlePreviewMainImg{
+  height: 100%;
+  object-fit: cover;
+}
+
+.ArticlePreviewInfoSection{
+  /* background-color: #f5f5f5; */
+  padding: 5px 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ArticlePreviewInfoText{
+  font-size: 14px;
+}
+
+.ArticlePreviewImgText{
+  margin: 0 0 15px 0;
+  font-size: 14px;
+}
+
+.ArticlePreviewInfoOptions{
+  font-size: 16px;
+  text-align: left;
+  margin: 0px;
+}
+
+.ArticlePreviewCard{
+  margin: 12px 0px;
+}
+
+.ArticlePreviewContent{
+  padding: 4px 20px;
+  height: 100%;
+  border-bottom: #ededed 1px solid;
+}
+
+.ArticlePreviewTitle{
+  font-family: "Open Sans", sans-serif;
+  color: #0B5AA3;  
+  margin: 0 0 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ArticlePreviewSubTitle{
+  font-family: "Open Sans", sans-serif;
+  color: #413e66;  
+  margin: 0 0 15px 0;
+  font-size: 16px;
+}
+
+.ArticlePreviewText{
+  margin: 0 0 15px 0;
+  font-size: 14px;
+}
+
+.ArticlePreviewImg{
+  width: 160px;
+  height: 160px;
+}
+
+.ArticlePreviewInfo{
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.ArticlePageTitleBG{
+  padding: 20px 20px;
+}
+
+.ArticlePageTitle{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  border-bottom: #ededed 1px solid;
+  padding: 10px 0px;
+  font-size: 2rem;
+}
+
+.ArticlePageAuthor, .ArticlePageTimestamp{
+  padding: 0px 20px;
+  font-size: 15px;
+}
+
+#ArticleSection{
+  margin: 30px 0px;
+}
+
+.ArticleMainPictureBG{
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+}
+
+.ArticleImg{
+  height: 450px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.ArticleRecentArticlesTextTop{
+  font-weight: 600;
+  margin: 0px 0px 20px 0px;
+}
+
+.ArticleRecentImagesContainer{
+  width: 100%;
+  height: 100%;
+}
+
+.ArticleRecentImagesContainer img{
+  height: 90px;
+  width: 100%;
+  float: right;
+  object-fit: cover;
+}
+
+.ArticleRecentTitleContainer{
+  width: 100%;
+  height: 100%;
+}
+
+.ArticleRecentTitle{
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.ArticleListTags ul{
+  list-style: none;
+}
+.ArticleListTags li{
+  display: inline;
+  font-size: 15px;
+  color: #0B5AA3;
+  transition: 0.3s;
+}
+
+.ArticleListTags li:hover{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ArticleSubTitle{
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-decoration: uppercase;
+}
+
+#ArticleText{
+  font-size: 1.1em;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.7;
+}
+
+.AboutBG{
+  padding: 30px;
+}
+
+.AboutIntro{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  border-bottom: #ededed 1px solid;
+  padding: 10px 0px;
+  font-size: 2rem;
+}
+
+.AboutTextContainer{
+  padding: 30px;
+}
+
+.AboutOpener{
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-decoration: uppercase;
+
+}
+.AboutText{
+  font-size: 1.1em;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.7;
+}
+
+.ContactBG{
+  padding: 30px;
+}
+
+.ContactText{
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+}
+
+.ContactEmail{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin: 15px 0px;
+  display: block;
+}
+
+.ContactIcon{
+  color: black;
+  font-size: 36px;
+  text-align: center;
+  display: block;
+  margin: 0px 0px 25px 0px;
+}
+
+.footerBackground{
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.footerNav{
+  margin: 0em 2em 0em 2em;
+}
+
+.footerMenu{
+  float: right;
+}
+
+.footerNavItem{
+  width: 25%;
+  float: left;
+}
+.footerNavMenuLink{
+  color: #413e66 !important;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.footerNavMenuLink:hover,
+.footerNavMenuLink:active,
+.footerNavMenuLink:focus{
+  color: #0a98c0 !important;
+  outline: none;
+  text-decoration: none;
+}
+
+.newsletterModalContent{
+  padding: 2em;
+}
+
+.newsletterModalHeader{
+  font-size: 24px;
+  font-weight: 700;
+  margin: 15px;
+  text-align: center;
+}
+.newsletterModalPrompt{
+  font-size: 18px;
+  margin: 10px;
+}
+
+@media only screen and (min-width: 568px) {
+  .container-fluid {
+    width: 550px;
+  }
+}
+@media only screen and (max-width: 568px){
+  .ArticlePreviewMainImg{
+    width: 90%  !important;
+  }
+  .ArticlePreviewContent{
+    height: 100%;
+    overflow: hidden;
+  }
+  .ArticleRecentArticlesTextTop{
+    margin-top: 10px;
+  }
+  #ArticleSection{
+    padding: 30px;
+  }
+  .ArticleRecentImagesContainer img{
+    height: 200px;
+    width: 100%;
+    float: right;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    width: 970px;
+  }
+  .navMenuLink{
+    padding: 10px 15px !important;
+  }
+  .ArticlePreviewBG{
+    height: 220px;
+  }
+  .ArticlePreviewImg{
+    float: right;
+  }
+
+}
+@media  only screen and (min-width: 1200px) {
+  .container-fluid {
+    width: 1170px;
+  }
+}
+
+@media  only screen and (max-width: 992px) {
+  .navMenuLink{
+    padding: 0.2em 0.1em;
+  }
+  .ArticlePreviewMainImg{
+    width: 100%;
+  }
+  .ArticlePreviewImgContainer{
+    text-align: center;
+  }
+  .ArticlePreviewImg{
+    max-width: 190px;
+    max-height: 170px;
+  }
+  .ArticlePreviewTitle{
+    text-align: center;
+    margin: 10px auto;
+  }
+  .ArticlePreviewSubTitle{
+    text-align: center;
+    margin: 10px auto;
+  }
+  #navbarMenu{
+    float: none;
+  }
+  #navbarMenu li{
+    margin: 7px 0px;
+    padding: 0px 20px;
+  }
+  .ArticleRecentImagesContainer img{
+    height: 240px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #navLogoImg{
+    width: 11rem;
+    height: 11rem;
+    cursor: pointer;
+  }
+  #navImgContainer{
+    width: 60%;
+  }
+  #navbarNav{
+    width: 100%;
+  }
+}
+
+
+
+
+
+  
