@@ -13,12 +13,12 @@
               <meta name="viewport" content="width=device-width, initial-scale=1">
               <meta name='description' content="<?= $_SESSION['Description']; ?>">            
               <meta name="author" content="<?= $_SESSION['ArticleAuthor']; ?>">
-              <link rel="icon" href="/images/halfLogo.png">
+              <link rel="icon" href="images/halfLogo.png">
               <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-              <link href="/style/bootstrap.css" rel="stylesheet">
-              <link href="/style/main.css" rel="stylesheet">
-              <script src="/script/jquery-3.4.1.js"></script>
-              <script src="/script/bootstrap.js"></script>
+              <link href="style/bootstrap.css" rel="stylesheet">
+              <link href="style/main.css" rel="stylesheet">
+              <script src="script/jquery-3.4.1.js"></script>
+              <script src="script/bootstrap.js"></script>
               <!-- Global site tag (gtag.js) - Google Analytics -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152462977-1"></script>
             <script>
@@ -35,7 +35,7 @@
             <!-- Navbar Logo Image -->
             <div id="navImgContainer">
               <a href="/index.php">
-                <img src="/images/fullLogo.png" id="navLogoImg">
+                <img src="images/fullLogo.png" id="navLogoImg">
               </a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,24 +47,24 @@
                   <a class="nav-link navMenuLink" href="/index.php">Home</a>
                 </li> -->
                 <li class="nav-item active">
-                  <a class="nav-link navMenuLink active" href="/layout/anime.php">anime</a>
+                  <a class="nav-link navMenuLink active" href="layout/anime.php">anime</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navMenuLink" href="/layout/lifestyle.php">lifestyle</a>
+                  <a class="nav-link navMenuLink" href="layout/lifestyle.php">lifestyle</a>
                 </li>
                 <!-- <li class="nav-item">
-                  <a class="nav-link navMenuLink" href="/layout/manga.php">manga</a>
+                  <a class="nav-link navMenuLink" href="layout/manga.php">manga</a>
                 </li> -->
                 <li class="nav-item">
-                  <a class="nav-link navMenuLink" href="/layout/news.php">news</a>
+                  <a class="nav-link navMenuLink" href="layout/news.php">news</a>
                 </li>
                 <!-- <li class="nav-item">
-                  <a class="nav-link navMenuLink" href="/layout/apps.php">apps</a>
+                  <a class="nav-link navMenuLink" href="layout/apps.php">apps</a>
                 </li> -->
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle navMenuLink" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">apps</a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/apps/randomNameGenerator.php">Name Generator</a>
+                    <a class="dropdown-item" href="apps/randomNameGenerator.php">Name Generator</a>
                 </li>
                 <!-- <li class="nav-item">
                   <a class="nav-link navMenuLink" href="/layout/about.php">about</a>
@@ -85,7 +85,7 @@
             </div>
           </nav>
         </div>
-        <script src="/script/main.js"></script>
+        <script src="script/main.js"></script>
 
       <!-- <div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="newsletterModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
